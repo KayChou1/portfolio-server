@@ -1,0 +1,36 @@
+CREATE TABLE projects (
+    name VARCHAR(255),
+    url VARCHAR(255),
+    description VARCHAR(255),
+    techUsed VARCHAR(255),
+    imageURL VARCHAR(255),
+    id serial PRIMARY KEY
+);
+
+insert into projects(name,url,description,techUsed,imageURL)
+values( 
+    'Movie Fetch', 
+    'https://kaychou1.github.io/IMDB-Movie-Fetch/',
+    'Project description 1',
+    'project3.com', 
+    'JavaScript, html CSS' ,  
+);
+
+insert into projects(name,url,description,techUsed,imageURL)
+values( 
+    'Sneaker API', 
+    'https://kaychou1.github.io/Lakai-sneaker-API/',
+    'Project description 2',
+    'JavaScript, html, CSS', 
+    'project4.com', 
+);
+
+insert into projects(name,url,description,techUsed,imageURL)
+values( 
+    'Movie API', 
+    'https://kaychou1.github.io/Movie-API/',
+    'Project description 2',
+    'JavaScript, html CSS, 
+    'project4.com',
+);
+
