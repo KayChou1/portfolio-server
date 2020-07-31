@@ -6,4 +6,4 @@ const info ={
     port: '5432',
 }
 
-module.exports = {info}
+module.exports = info;

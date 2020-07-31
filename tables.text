@@ -7,30 +7,54 @@ CREATE TABLE projects (
     id serial PRIMARY KEY
 );
 
-insert into projects(name,url,description,techUsed,imageURL)
+insert into projects (name,url,description,techUsed,imageURL)
 values( 
-    'Movie Fetch', 
-    'https://kaychou1.github.io/IMDB-Movie-Fetch/',
+    'Space Kirby', 
+    'https://kaychou1.github.io/Space-Kirby/',
     'Project description 1',
-    'project3.com', 
-    'JavaScript, html CSS' ,  
+    'JavaScript, html', 
+    'https://data.whicdn.com/images/292689451/original.gif'
 );
 
-insert into projects(name,url,description,techUsed,imageURL)
-values( 
-    'Sneaker API', 
-    'https://kaychou1.github.io/Lakai-sneaker-API/',
-    'Project description 2',
-    'JavaScript, html, CSS', 
-    'project4.com', 
-);
 
-insert into projects(name,url,description,techUsed,imageURL)
-values( 
-    'Movie API', 
-    'https://kaychou1.github.io/Movie-API/',
-    'Project description 2',
-    'JavaScript, html CSS, 
-    'project4.com',
-);
+    { 
+    name: 'Space Kirby', 
+    url: 'https://kaychou1.github.io/Space-Kirby/',
+    description: 'Project description 1',
+    imgUrl: 'https://data.whicdn.com/images/292689451/original.gif', 
+    techUsed: ['JavaScript', 'html' ],
+    },
+    
+    { 
+    name: 'Calculator', 
+    url: 'https://kaychou1.github.io/calculatorProject/',
+    description: 'Project description 2',
+    imgUrl: 'project2.com', 
+    techUsed: ['JavaScript', 'html' ], 
+    },
+    
+    { 
+    name: 'Movie Fetch', 
+    url: 'https://kaychou1.github.io/IMDB-Movie-Fetch/',
+    description: 'Project description 1',
+    imgUrl: 'project3.com', 
+    techUsed: ['JavaScript', 'html' ],
+    },
+    
+    { 
+    name: 'Sneaker API', 
+    url: 'https://kaychou1.github.io/Lakai-sneaker-API/',
+    description: 'Project description 2',
+    imgUrl: 'project4.com', 
+    techUsed: ['JavaScript', 'html' ], 
+    },
+    
+    {
+    name: 'Movie API', 
+    url: 'https://kaychou1.github.io/Movie-API/',
+    description: 'Project description 2',
+    imgUrl: 'project4.com', 
+    techUsed: ['JavaScript', 'html' ], 
+    }
 
+]
