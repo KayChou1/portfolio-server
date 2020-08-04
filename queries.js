@@ -1,4 +1,4 @@
-const info = require('./env');
+const info = require('./env.js');
 const {Pool} = require('pg');
 const pool = new Pool({
  user: info.user, 
@@ -15,4 +15,4 @@ const getProjects = (request, response) => {
  response.status(200).json(results.rows);
  })
 }
-module.exports = { getProjects}
+module.exports = {getProjects}
